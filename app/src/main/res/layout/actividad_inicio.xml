@@ -1,0 +1,169 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    tools:context=".ActividadPrincipal">
+
+    <!-- Spinner con los botones -->
+
+    <!-- Botones -->
+
+    <ImageView
+        android:id="@+id/errorimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pagina_error"
+        tools:srcCompat="@drawable/pagina_error" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:padding="10dp"
+        android:text="Menu de Opciones"
+        android:textColor="@color/honor"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="312dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615"
+        app:srcCompat="@drawable/icono_vanierapp" />
+
+    <!-- Otros elementos -->
+
+    <Spinner
+        android:id="@+id/spinner_menu"
+        android:layout_width="336dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_menu">
+
+        <!-- Botón Cerrar Sesión -->
+
+        <!-- Botón Reservar -->
+        <!--
+        <Button
+            android:id="@+id/Book"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="reservacion"
+            android:text="Reservar"
+            android:textColor="@color/honor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/teal_700" />
+-->
+        <!-- Botón Cancelar Reservación -->
+        <!--
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="cancelacionReserva"
+            android:text="Cancelar Reservación"
+            android:textColor="@color/honor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/teal_700" />
+-->
+        <!-- Botón Mis Reservaciones -->
+        <!--
+        <Button
+            android:id="@+id/display_all_tables"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="mostrar_mesas"
+            android:text="Mis Reservaciones"
+            android:textColor="@color/honor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/teal_700" />
+-->
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        android:background="@color/teal_700"
+        android:onClick="perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:text="Perfil Usuario"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="41dp"
+        android:onClick="log_out"
+        android:text="Cerrar Sesión"
+        android:textColor="@color/honor"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

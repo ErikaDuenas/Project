@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VANIER_APP</string>
+    <string-array name="opciones_menu">
+        <item>Seleccione un opción</item>
+        <item>Reservar</item>
+        <item>Cancelar Reservacion</item>
+        <item>Mis Reservaciones</item>
+    </string-array>
+</resources>
