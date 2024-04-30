@@ -1,105 +1,15 @@
+VANIER_APP
 
+![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/0623666d-bab6-43cc-a5b1-b2b7073d3eb2)
 
-![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/c8248980-b2ba-45d7-af1c-810be71293ef)
+ VANIER es una aplicación móvil diseñada para simplificar el proceso de agendamiento de reservas en el restaurante. Con una interfaz intuitiva y funcionalidades dinámicas, VANIER ofrecerá una experiencia fluida y conveniente tanto para los clientes como para el establecimiento, mejorando la eficiencia operativa y elevando la satisfacción del cliente. 
 
-
-Actividades y/o Fragmentos: 
+ 
+FUNCIONALIDADES DE LA APLICACION 
 
 La aplicación consta de las siguientes actividades y/o fragmentos: 
 
 Pantalla de inicio: Muestra un mensaje de bienvenida y permite al usuario iniciar sesión o registrarse. 
-![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/c3ea623a-38ea-4292-a9dd-568c38e73045)
 
-Home: Muestra un panel principal con opciones para acceder a las diferentes funcionalidades de la aplicación, como ver la lista de reservas, realizar nuevas reservas, cancelar mis reservas y acceder al perfil de usuario. 
+![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/de5effba-0588-4f43-a966-d9d4d7479eb0)
 
- 
-
- 
-
- 
-
-    Inicio de sesión: Permite al usuario ingresar su correo electrónico y contraseña para acceder a la aplicación. 
-
- 
-
- 
-
- 
-
- 
-
-    Registro: Permite al usuario crear una nueva cuenta en la aplicación. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-    Perfil del usuario: Muestra información detallada del usuario, incluyendo sus datos de registro, adicionalmente permite al usuario actualizar su información personal, o en su defecto eliminar el usuario. 
-
- 
-
- 
-
- 
-
-    Eliminación de usuario: Permite al usuario eliminar su cuenta de la aplicación. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-    Reserva: Permite al usuario realizar una reserva en un restaurante seleccionado, especificando la fecha, hora, número de personas y preferencias especiales. 
-
- 
-
- 
-
-    Mis reservas: Muestra una lista de las reservas realizadas por el usuario las reservas anteriores y posteriores a la fecha de la consulta. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-    Cancelación de reserva: Permite al usuario cancelar una reserva previamente realizada. 
-
- 
-
- 
-
- 
