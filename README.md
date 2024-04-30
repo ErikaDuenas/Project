@@ -32,16 +32,15 @@ Perfil del usuario: Muestra información detallada del usuario, incluyendo sus d
 
 Eliminación de usuario: Permite al usuario eliminar su cuenta de la aplicación. 
 
+![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/07142c5c-d2d8-4617-a001-5a921cd51262)
 
 Reserva: Permite al usuario realizar una reserva en un restaurante seleccionado, especificando la fecha, hora, número de personas y preferencias especiales.
 
 ![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/0dc62eeb-3eda-482c-ab0b-01fdc2577897)
 
-
 Mis reservas: Muestra una lista de las reservas realizadas por el usuario las reservas anteriores y posteriores a la fecha de la consulta. 
 
 ![image](https://github.com/ErikaDuenas/VANIER_APP/assets/106167369/5bb6ed85-29b4-406d-a0a4-ede8b9bce358)
-
 
 Cancelación de reserva: Permite al usuario cancelar una reserva previamente realizada. 
 
